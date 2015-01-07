@@ -10,7 +10,6 @@
 
 @interface ResultsViewController : UIViewController
 
-@property NSString *adjective;
-@property NSString *name;
+@property NSMutableArray *wordsArray;
 
 @end

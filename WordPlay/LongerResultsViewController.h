@@ -1,5 +1,5 @@
 //
-//  EnterAdjectiveViewController.h
+//  LongerResultsViewController.h
 //  WordPlay
 //
 //  Created by Chris Giersch on 1/6/15.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultsViewController.h"
 
-@interface EnterAdjectiveViewController : UIViewController
+@interface LongerResultsViewController : UIViewController
 
 @property NSMutableArray *wordsArray;
 

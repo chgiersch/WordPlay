@@ -1,5 +1,5 @@
 //
-//  EnterAdjectiveViewController.h
+//  EnterVerbViewController.h
 //  WordPlay
 //
 //  Created by Chris Giersch on 1/6/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EnterAdjectiveViewController : UIViewController
+@interface EnterVerbViewController : UIViewController
 
 @property NSMutableArray *wordsArray;
 

@@ -9,6 +9,7 @@
 #import "ResultsViewController.h"
 
 @interface ResultsViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextView *resultsTextView;
 
 @end
@@ -17,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *madLib = [NSString stringWithFormat:@"It was a dark and %@ night, when %@ finally finished his MadLib.", self.adjective, self.name];
+    NSString *madLib = [NSString stringWithFormat:@"It was a dark and %@ night, when %@ finally finished his MadLib.", self.wordsArray[0], self.wordsArray[1]];
     self.resultsTextView.text = madLib;
 }
 

@@ -8,17 +8,22 @@
 
 #import "EnterNameViewController.h"
 #import "EnterAdjectiveViewController.h"
+#import "ViewController.h"
+
 
 @interface EnterNameViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property NSMutableArray *wordsArray;
 
 @end
 
 @implementation EnterNameViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    self.wordsArray = [NSMutableArray new];
     // Do any additional setup after loading the view.
 }
 
@@ -34,8 +39,10 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    EnterAdjectiveViewController *vc = segue.destinationViewController;
-    vc.name = self.nameTextField.text;
+    EnterAdjectiveViewController *avc = segue.destinationViewController;
+    [self.wordsArray addObject:self.nameTextField.text];
+    NSLog(@"%@", [self.wordsArray objectAtIndex:0]);
+    avc.wordsArray = self.wordsArray;
 }
 
 @end

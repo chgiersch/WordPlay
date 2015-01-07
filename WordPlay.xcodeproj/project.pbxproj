@@ -16,6 +16,10 @@
 		0FE206B01A5CA96B006E431F /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206AF1A5CA96B006E431F /* WordPlayTests.m */; };
 		0FE206BB1A5CAE2E006E431F /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206BA1A5CAE2E006E431F /* EnterNameViewController.m */; };
 		0FE206BE1A5CAF52006E431F /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206BD1A5CAF52006E431F /* EnterAdjectiveViewController.m */; };
+		0FE206C11A5CC640006E431F /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206C01A5CC640006E431F /* EnterVerbViewController.m */; };
+		0FE206C31A5CCB85006E431F /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE206C21A5CCB85006E431F /* words.plist */; };
+		0FE206C61A5CDAEC006E431F /* EnterSecondVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206C51A5CDAEC006E431F /* EnterSecondVerbViewController.m */; };
+		0FE206C91A5CDD82006E431F /* LongerResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206C81A5CDD82006E431F /* LongerResultsViewController.m */; };
 		18822B671A5CB1D6008B63FE /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18822B661A5CB1D6008B63FE /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +51,13 @@
 		0FE206BA1A5CAE2E006E431F /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
 		0FE206BC1A5CAF52006E431F /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
 		0FE206BD1A5CAF52006E431F /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		0FE206BF1A5CC640006E431F /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		0FE206C01A5CC640006E431F /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
+		0FE206C21A5CCB85006E431F /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		0FE206C41A5CDAEC006E431F /* EnterSecondVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterSecondVerbViewController.h; sourceTree = "<group>"; };
+		0FE206C51A5CDAEC006E431F /* EnterSecondVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterSecondVerbViewController.m; sourceTree = "<group>"; };
+		0FE206C71A5CDD82006E431F /* LongerResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongerResultsViewController.h; sourceTree = "<group>"; };
+		0FE206C81A5CDD82006E431F /* LongerResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongerResultsViewController.m; sourceTree = "<group>"; };
 		18822B651A5CB1D6008B63FE /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		18822B661A5CB1D6008B63FE /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +112,12 @@
 				18822B651A5CB1D6008B63FE /* ResultsViewController.h */,
 				18822B661A5CB1D6008B63FE /* ResultsViewController.m */,
 				0FE2069D1A5CA96B006E431F /* Main.storyboard */,
+				0FE206BF1A5CC640006E431F /* EnterVerbViewController.h */,
+				0FE206C01A5CC640006E431F /* EnterVerbViewController.m */,
+				0FE206C41A5CDAEC006E431F /* EnterSecondVerbViewController.h */,
+				0FE206C51A5CDAEC006E431F /* EnterSecondVerbViewController.m */,
+				0FE206C71A5CDD82006E431F /* LongerResultsViewController.h */,
+				0FE206C81A5CDD82006E431F /* LongerResultsViewController.m */,
 				0FE206A01A5CA96B006E431F /* Images.xcassets */,
 				0FE206A21A5CA96B006E431F /* LaunchScreen.xib */,
 				0FE206931A5CA96B006E431F /* Supporting Files */,
@@ -112,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE206941A5CA96B006E431F /* Info.plist */,
+				0FE206C21A5CCB85006E431F /* words.plist */,
 				0FE206951A5CA96B006E431F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -214,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE206C31A5CCB85006E431F /* words.plist in Resources */,
 				0FE2069F1A5CA96B006E431F /* Main.storyboard in Resources */,
 				0FE206A41A5CA96B006E431F /* LaunchScreen.xib in Resources */,
 				0FE206A11A5CA96B006E431F /* Images.xcassets in Resources */,
@@ -235,6 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FE2069C1A5CA96B006E431F /* ViewController.m in Sources */,
+				0FE206C11A5CC640006E431F /* EnterVerbViewController.m in Sources */,
+				0FE206C61A5CDAEC006E431F /* EnterSecondVerbViewController.m in Sources */,
+				0FE206C91A5CDD82006E431F /* LongerResultsViewController.m in Sources */,
 				0FE206991A5CA96B006E431F /* AppDelegate.m in Sources */,
 				0FE206BE1A5CAF52006E431F /* EnterAdjectiveViewController.m in Sources */,
 				18822B671A5CB1D6008B63FE /* ResultsViewController.m in Sources */,
