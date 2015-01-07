@@ -25,6 +25,7 @@
 {
     ResultsViewController *vc = segue.destinationViewController;
     vc.adjective = self.adjectiveTextField.text;
+    vc.name = self.name;
 }
 
 @end
