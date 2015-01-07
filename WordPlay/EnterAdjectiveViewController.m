@@ -21,6 +21,17 @@
     [super viewDidLoad];
 }
 
+
+// This method prevents a segue if the text field is empty
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([self.adjectiveTextField.text isEqualToString:@""])
+    {
+        return NO;
+    }
+    return YES;
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     ResultsViewController *vc = segue.destinationViewController;
