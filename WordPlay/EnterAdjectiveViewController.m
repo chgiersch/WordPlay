@@ -7,6 +7,7 @@
 //
 
 #import "EnterAdjectiveViewController.h"
+#import "ResultsViewController.h"
 
 @interface EnterAdjectiveViewController ()
 
@@ -18,8 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ResultsViewController *vc = segue.destinationViewController;
+    vc.adjective = self.adjectiveTextField.text;
+}
 
 @end

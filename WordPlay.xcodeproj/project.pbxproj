@@ -16,6 +16,7 @@
 		0FE206B01A5CA96B006E431F /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206AF1A5CA96B006E431F /* WordPlayTests.m */; };
 		0FE206BB1A5CAE2E006E431F /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206BA1A5CAE2E006E431F /* EnterNameViewController.m */; };
 		0FE206BE1A5CAF52006E431F /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206BD1A5CAF52006E431F /* EnterAdjectiveViewController.m */; };
+		18822B671A5CB1D6008B63FE /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18822B661A5CB1D6008B63FE /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		0FE206BA1A5CAE2E006E431F /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
 		0FE206BC1A5CAF52006E431F /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
 		0FE206BD1A5CAF52006E431F /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		18822B651A5CB1D6008B63FE /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		18822B661A5CB1D6008B63FE /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				0FE206BC1A5CAF52006E431F /* EnterAdjectiveViewController.h */,
 				0FE206BD1A5CAF52006E431F /* EnterAdjectiveViewController.m */,
 				0FE2069D1A5CA96B006E431F /* Main.storyboard */,
+				18822B651A5CB1D6008B63FE /* ResultsViewController.h */,
+				18822B661A5CB1D6008B63FE /* ResultsViewController.m */,
 				0FE206B91A5CAE2E006E431F /* EnterNameViewController.h */,
 				0FE206BA1A5CAE2E006E431F /* EnterNameViewController.m */,
 				0FE206A01A5CA96B006E431F /* Images.xcassets */,
@@ -232,6 +237,7 @@
 				0FE2069C1A5CA96B006E431F /* ViewController.m in Sources */,
 				0FE206991A5CA96B006E431F /* AppDelegate.m in Sources */,
 				0FE206BE1A5CAF52006E431F /* EnterAdjectiveViewController.m in Sources */,
+				18822B671A5CB1D6008B63FE /* ResultsViewController.m in Sources */,
 				0FE206BB1A5CAE2E006E431F /* EnterNameViewController.m in Sources */,
 				0FE206961A5CA96B006E431F /* main.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				0FE206B51A5CA96B006E431F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FE206B61A5CA96B006E431F /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				0FE206B81A5CA96B006E431F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
