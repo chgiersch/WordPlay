@@ -41,8 +41,9 @@
 {
     EnterAdjectiveViewController *avc = segue.destinationViewController;
     [self.wordsArray addObject:self.nameTextField.text];
-    NSLog(@"%@", [self.wordsArray objectAtIndex:0]);
+    //NSLog(@"%@", [self.wordsArray objectAtIndex:0]);
     avc.wordsArray = self.wordsArray;
+    //[self.wordsArray writeToFile:@"/words.plist" atomically:Yes];
 }
 
 @end

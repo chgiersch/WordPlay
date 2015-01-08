@@ -35,6 +35,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    // segue identifier switch
+
     ResultsViewController *rvc = segue.destinationViewController;
     EnterAdjectiveViewController *avc = segue.destinationViewController;
     [self.wordsArray addObject:self.adjectiveTextField.text];
